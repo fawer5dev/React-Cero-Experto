@@ -1,14 +1,14 @@
 // Functions
 
-// Definition of an arrow function 'saludar2' that takes a parameter 'nombre' 
+// Definition of an arrow function 'saludar2' that takes a parameter 'name' 
 // and returns a greeting string
-const saludar2 = (nombre) => {
-    return `Hola, ${nombre}`; // Template literal used to embed the 'nombre' parameter within the greeting
+const saludar2 = (name: string) => {
+    return `Hola, ${name}`; // Template literal used to embed the 'name' parameter within the greeting
 }
 
-// Definition of an arrow function 'saludar3' that takes a parameter 'nombre' 
+// Definition of an arrow function 'saludar3' that takes a parameter 'name' 
 // and returns a greeting string in a single line
-const saludar3 = (nombre) => `Hola, ${nombre}`; // Concise body syntax for arrow functions
+const saludar3 = (name: string) => `Hola, ${name}`; // Concise body syntax for arrow functions
 
 // Definition of an arrow function 'saludar4' that takes no parameters 
 // and returns a fixed greeting string
@@ -28,14 +28,14 @@ const getUser = () => {
 }
 
 // Logging the result of calling 'getUser' function
-const user = console.log(getUser()); // Calls 'getUser' and logs the returned object
-console.log(user); // Logs 'undefined' because console.log returns 'undefined'
+const user = getUser(); // Calls 'getUser' and stores the returned object
+console.log(user); // Logs the returned object
 
-// Definition of an arrow function 'getUsuarioActivo' that takes a parameter 'nombre' 
+// Definition of an arrow function 'getUsuarioActivo' that takes a parameter 'name' 
 // and returns an object with user details
-const getUsuarioActivo = (nombre) => ({
+const getUsuarioActivo = (name: string) => ({
     uid: 'ABC567', // User ID
-    username: nombre // Username set to the passed parameter 'nombre'
+    username: name // Username set to the passed parameter 'name'
 })
 
 // Calling 'getUsuarioActivo' with 'Fernando' and storing the result in 'usuarioActivo'
