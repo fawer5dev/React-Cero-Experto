@@ -1,5 +1,5 @@
 import './style.css'
-import './bases/04-arreglos'
+import './bases/06-d  '
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>

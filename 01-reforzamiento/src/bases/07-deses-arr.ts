@@ -1,9 +1,6 @@
-
-
 const personajes = ['Goku','Vegeta','Trunks'];
 const [ , , p3 ] = personajes;
 console.log( p3 );
-
 
 const retornaArreglo = () =>{
     return ['ABC', 123];
@@ -12,10 +9,9 @@ const retornaArreglo = () =>{
 const [ letras, numeros ] = retornaArreglo(); 
 console.log(letras, numeros);
 
-
-// Tarea
-// 1. el primer valor del arr se llamará nombre
-// 2. se llamará setNombre
+// Task
+// 1. first value of array is called nombre
+// 2. called setNombre
 const useState = ( value: string ): [ string, () => void ] => {
     return [ value, ()=>{ console.log('Hola Mundo') } ];
 }
@@ -24,8 +20,3 @@ const [ nombre, setNombre ] = useState( 'Goku' );
 
 console.log( nombre );
 setNombre();
-
-
-
-
-

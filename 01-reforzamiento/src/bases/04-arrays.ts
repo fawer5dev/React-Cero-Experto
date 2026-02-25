@@ -1,7 +1,9 @@
-// Arrays in JS
+// Arrays in JS/TS
 
 // Definition of a constant array 'arreglo' with the values [1, 2, 3, 4]
-const arreglo = [1, 2, 3, 4];
+// The type of the array is specified as 'number[]'
+// indicating that it is an array of numbers
+const arreglo: number[] = [1, 2, 3, 4];
 
 // Creation of a new array 'arreglo2' by spreading the elements of 'arreglo' 
 // and adding the value 5 at the end
