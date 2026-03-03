@@ -1,5 +1,5 @@
 import './style.css'
-import './bases/06-deses-obj'
+import './bases/10-fetch'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
