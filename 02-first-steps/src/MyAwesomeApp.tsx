@@ -8,7 +8,7 @@ export const MyAwesomeApp = () => {
 
     const address = {
         zipCode: 'ABC-123',
-        country: 'Canadá',
+        country: 'Australia',
     };
 
     const myStyles: CSSProperties = {
@@ -17,7 +17,6 @@ export const MyAwesomeApp = () => {
         padding: 10,
         marginTop: 30,
     };
-
 
     return (
         <>
